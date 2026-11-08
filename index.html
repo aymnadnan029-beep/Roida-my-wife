@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#350b19">
+  <meta name="description" content="رسالة خاصة من أيمن إلى رويدا ❤️">
+  <title>إلى رويدا ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="intro" id="intro">
+    <div class="heart">♡</div>
+    <p class="small-text">إلى أجمل إنسانة</p>
+    <h1>رويدا</h1>
+    <p>في حاجة صغيرة حاب نقولهالك...</p>
+    <button id="openButton" type="button">افتحي المفاجأة ❤️</button>
+  </main>
+
+  <section class="story hidden" id="story">
+    <div class="message">
+      <div class="full-message" id="fullMessage">
+        <p class="greeting">رويدا حبيبتي… ❤️</p>
+        <p id="spokenMessage"></p>
+        <p class="signature">بحبك يا رويدا… ❤️♾️</p>
+      </div>
+
+      <div class="music-panel">
+        <p>🎵 موسيقى هادئة بالخلفية</p>
+        <div id="youtubePlayer"></div>
+        <p class="music-note">إذا لم تعمل الموسيقى تلقائياً، اضغطي تشغيل من المشغّل.</p>
+      </div>
+      <p id="voiceStatus" class="voice-status" aria-live="polite">اضغطي الزر لسماع صوت أيمن ❤️</p>
+      <button id="replayButton" class="replay-button" type="button">إعادة تشغيل صوت أيمن ❤️</button>
+    </div>
+  </section>
+
+  <audio id="voice" preload="auto">
+    <source src="your-voice.m4a.m4a" type="audio/mp4">
+  </audio>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
